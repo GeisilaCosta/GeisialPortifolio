@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: #ccc;
+}
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.profile-picture-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.hamburger-menu.open {
+  background-color: #333;
+  color: #fff;
+}
+
+.hamburger-menu.open span {
+  background-color: #fff;
+}
+.container {
+  padding: 1rem;
+}
+.menu {
+  transition: all 0.3s ease-in-out;
+}.hamburger-menu.closed {
+  background-color: #333;
+  color: #333;
+}
+
+.hamburger-menu.closed span {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  nav, footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin-bottom: 0.5rem;
+  }
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.blog {
+  padding: 2rem;
+}
+
+.blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog li {
+  margin: 1rem 0;
+}
+
+.blog li a {
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.blog li a:hover {
+  text-decoration: underline;
+}
+
+.languages {
+  padding: 2rem;
+}
+
+.languages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.languages li {
+  margin: 1rem 0;
+}
+
+.languages li h3 {
+  margin: 0;
+}
+
+.languages li p {
+  margin: 0.5rem 0;
+}
+
+.languages li button, .languages li a {
+  margin-right: 1rem;
+}
