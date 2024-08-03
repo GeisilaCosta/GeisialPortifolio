@@ -1,16 +1,16 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
+import Home from './pages/Home';
+import About from './pages/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Blog from './components/Blog';
+import Contact from './pages/Contact';
+import Blog from './pages/Blog';
 import BlogPost from './components/BlogPost';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Languages from './components/Languages';
 import './index.css';
 import { AuthProvider } from './context/AutContext';
+
 
 
 const App = () => (
@@ -23,7 +23,7 @@ const App = () => (
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:id" element={<BlogPost />} />
-      <Route path="/languages" element={<Languages />} />
+      
     </Routes>
     <Footer />
   </AuthProvider>

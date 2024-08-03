@@ -3,7 +3,6 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore, doc, getDoc, setDoc, increment } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBcwMFlb-5eGP716RXDOQBK5YasMd6FEeg",
   authDomain: "geisila-portifolio.firebaseapp.com",
@@ -14,7 +13,7 @@ const firebaseConfig = {
   measurementId: "G-70GKQ3MPGZ"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
