@@ -11,7 +11,7 @@ const Grafico = () => {
     { label: 'React', value: 70 },
     { label: 'Java', value: 70 },
     { label: 'Node.js', value: 60 },
-    { label: 'React Native', value: 90 },
+    { label: 'React Native', value: 100 },
   ];
 
   const options = {

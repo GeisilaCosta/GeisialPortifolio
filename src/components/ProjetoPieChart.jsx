@@ -14,7 +14,7 @@ const ProjetoPieChart = () => {
           '#ffa0407b',
           '#4bc0c075',
         ],
-        borderColor: '#535252',
+        borderColor: '#020202',
         borderWidth: 1,
       },
     ],

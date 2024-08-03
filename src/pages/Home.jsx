@@ -9,9 +9,10 @@ const Home = () => {
       <div style={{ display: 'flex', flexDirection: 'row-reverse', fontSize: '10px' }}>
         <ViewCounter />
       </div>
-      <h1>Olá! Eu sou Geisila Costa!!</h1>
+      <h1>Olá, seja bem vindo! Eu sou Geisila Costa!!</h1>
+      
       <h2>- Analista de Desenvolvimento de Sistemas e Desenvolvedora Full Stack</h2>
-      <p className="paragrafo">Seja bem-vindo ao meu portfólio!</p>
+    
       <p className="paragrafo">Aqui você encontrará informações sobre mim, meus projetos, tecnologias, linguagens e como entrar em contato.</p>
 
       <div className="grafico">

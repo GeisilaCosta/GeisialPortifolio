@@ -1,8 +1,8 @@
 
 :root {
   --primary-color: #09f7eb; 
-  --secondary-color: #333;
-  --background-color: #000;
+  --secondary-color: #1f1e1e;
+  --background-color: #272727;
   --text-color: #8b8888;
 }
 
@@ -67,7 +67,7 @@ header {
     box-shadow: 0 0 20px rgba(253, 53, 3, 0.5);
   }
   50% {
-    box-shadow: 0 0 20px rgba(3, 240, 228, 0.8);
+    box-shadow: 0 0 20px rgba(27, 3, 240, 0.8);
   }
   100% {
     box-shadow: 0 0 20px rgba(238, 4, 218, 0.5);
@@ -126,7 +126,7 @@ footer {
     box-shadow: 0 0 20px rgba(253, 53, 3, 0.5);
   }
   50% {
-    box-shadow: 0 0 20px rgba(3, 240, 228, 0.8);
+    box-shadow: 0 0 20px rgba(46, 3, 240, 0.8);
   }
   100% {
     box-shadow: 0 0 20px rgba(238, 4, 218, 0.5);
